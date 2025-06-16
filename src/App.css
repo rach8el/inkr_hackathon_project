@@ -1,0 +1,50 @@
+
+.background {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, #111 0%, #444 100%);
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+  
+.todo-card {
+  background-color: white;     
+  border-radius: 16px;        
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  padding: 32px 24px;          
+  width: 100%;
+  max-width: 400px;           
+  box-sizing: border-box;     
+  position: absolute;
+  top: 25%;
+  left: 35%;
+ 
+}
+
+.button {
+  transition-duration: 0.4s;
+  font-size: 15px; 
+}
+
+.button:hover {
+  background-color:aliceblue;
+  color:beige;
+}
+
+
+.to-do-list .task-item {
+  display: flex;
+  align-items: center;     
+  gap: 10px;                
+  background: #f9f9f9;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 8px 0;
+}
+
+.to-do-list .task-item button {
+  margin-left: auto;        /*  button to the right */
+  
+}
